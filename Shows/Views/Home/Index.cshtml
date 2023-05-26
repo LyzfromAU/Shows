@@ -1,0 +1,14 @@
+﻿<form method="post" action="/Home/Venue">
+    <div class="form-group">
+        <label for="venueOptions">Select a venue:</label>
+        <select id="venueOptions" name="VenueId" class="form-control">
+            <option value="">-- Select --</option>
+            @foreach (var option in ViewBag.Venues)
+            {
+                <option value="@option.Id">@option.Name</option>
+            }
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+

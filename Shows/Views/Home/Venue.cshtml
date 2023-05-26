@@ -1,0 +1,16 @@
+﻿
+<h1 class="title">Events in @ViewBag.Venue</h1>
+
+<div class="events-container">
+    @foreach (var e in ViewBag.Events)
+    {
+        <div class="event-card">
+            <div class="name">@e.Name</div>
+            <div class="time">@e.StartDate</div>
+            <div class="desc">@e.Description</div>
+        </div>
+    }
+</div>
+
+<p>Use this page to detail your site's privacy policy.</p>
+

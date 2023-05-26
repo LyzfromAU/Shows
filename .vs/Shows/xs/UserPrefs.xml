@@ -1,0 +1,39 @@
+﻿<Properties StartupConfiguration="{AC48F75F-BF28-44D6-8EE1-3DC751813269}|Default">
+  <MonoDevelop.Ide.ItemProperties.Shows PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Shows/wwwroot/css/site.css">
+    <Files>
+      <File FileName="Shows/appsettings.json" Line="11" Column="1" IsPinned="True" />
+      <File FileName="Shows/Controllers/HomeController.cs" Line="40" Column="39" />
+      <File FileName="Shows/Views/Home/Index.cshtml" Line="9" Column="14" />
+      <File FileName="Shows/Views/Home/Privacy.cshtml" Line="10" Column="29" />
+      <File FileName="Shows/wwwroot/css/site.css" Line="28" Column="26" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Shows" expanded="True">
+            <Node name="Shows" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True">
+                  <Node name="site.css" selected="True" />
+                </Node>
+              </Node>
+              <Node name="appsettings.json" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
